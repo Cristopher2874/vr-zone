@@ -2,6 +2,16 @@
 Theme Name: grit
 Version: 1.0.0
 License: GNU General Public License v2 or later
+
+theme:
+
+#FF69B8
+#D204FD
+#4D27FB
+#24023B
+#0F0520
+
+#7c5ffd
 */
 
 /*--------------------
@@ -2400,7 +2410,7 @@ embed, iframe, object {
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #152040;
+	background-color: #7c5ffd;
 	opacity: 0.7;
 }
 #home-banner .content {
@@ -2512,6 +2522,7 @@ embed, iframe, object {
 }
 #about-us-block {
 	padding: 100px 0;
+	background: #ffffff;
 }
 #about-us-block h2 {
 	font-size: 32px;
@@ -2610,7 +2621,7 @@ ul.about-features li:hover i {
 }
 #home-contact-block {
 	padding: 70px 0;
-	background: #f8ea9d;
+	background: #fdbfe0;
 }
 
 #home-contact-block .row{padding:15px;}
@@ -2628,19 +2639,19 @@ ul.about-features li:hover i {
 #home-contact-block a {
 	float: right;
 	max-width: 300px;
-	border: 1px #152040 solid;
+	border: 1px #7c5ffd solid;
 	display: inline-block;
 	color: #fff;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 400;
-	background: #152040;
+	background: #7c5ffd;
 	padding: 15px 53px;
 	letter-spacing: 0.8px;
 }
 #home-contact-block a:hover {
 	border: 1px #fff solid;
-	background: #15204075;
+	background: #24023B;
 	text-decoration: none;
 	transition: all .6s;
 	-moz-transition: all .6s;
