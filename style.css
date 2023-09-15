@@ -251,7 +251,7 @@ a.navbar-brand:hover span {
 	letter-spacing: 1px;
 }
 
-#top-menu.navbar-default .navbar-nav > li > a:hover{color:#615f5f; transition:all 0.5s;}
+#top-menu.navbar-default .navbar-nav > li > a:hover{color:#FFDC21; transition:all 0.5s;}
 
 #top-menu.navbar-default .navbar-nav{text-align:center;}
 #top-menu.navbar-default .navbar-nav li { float:none; display:inline-block;}
@@ -4528,7 +4528,7 @@ ul.about-features li i {
 
 #top-menu.navbar-default .navbar-nav li{display:block;
 }
-#top-menu.navbar-default .navbar-collapse{background-color: rgba(0, 0, 0, 0.79);}
+#top-menu.navbar-default .navbar-collapse{background-color: rgba(100, 0, 0, 0.79);}
 #top-menu.navbar-default.on .navbar-collapse{background-color: transparent;}
 
 #top-menu.navbar-default.on {
