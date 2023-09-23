@@ -802,12 +802,6 @@ button + .dropdown-menu {
 
 
 
-
-
-
-	
-	
-
 /* All base elements go here */
 
 /*--------------------
@@ -2410,7 +2404,7 @@ embed, iframe, object {
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #7c5ffd;
+	background-color: #110728ff;
 	opacity: 0.7;
 }
 #home-banner .content {
@@ -2621,7 +2615,7 @@ ul.about-features li:hover i {
 }
 #home-contact-block {
 	padding: 70px 0;
-	background: #fdbfe0;
+	background: #110728ff;
 }
 
 #home-contact-block .row{padding:15px;}
@@ -2659,6 +2653,7 @@ ul.about-features li:hover i {
 }
 #our-work-block {
 	padding: 80px 0 160px;
+	background-color: #110728ff;
 }
 #our-work-block h2 {
 	font-size: 32px;
@@ -2672,7 +2667,7 @@ ul.about-features li:hover i {
 	z-index: 2;
 }
 #our-work-block h2:after {
-	border: 1px #CCC solid;
+	border: 1px #cccccc00 solid;
 	width: 64px;
 	height: 64px;
 	content: "";
@@ -2693,6 +2688,30 @@ ul.about-features li:hover i {
 	margin: 0 auto;
 	font-family: 'PT Serif', serif;
 	margin-top: 50px;
+}
+#our-work-block1 a {
+	float: right;
+	max-width: 300px;
+	border: 1px #ffca3aff solid;
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	text-transform: capitalize;
+	-webkit-text-fill-color: #110728ff;
+	font-weight: 400;
+	background: #ffca3aff;
+	padding: 15px 53px;
+	letter-spacing: 0.8px;
+	border-radius: 5%;
+}
+#our-work-block1 a:hover {
+	border: 1px #fff solid;
+	background: #110728ff;
+	text-decoration: none;
+	transition: all .6s;
+	-webkit-text-fill-color: #ffca3aff;
+	-moz-transition: all .6s;
+	-webkit-transition: all .6s;
 }
 #our-work-block .works ul {
 	margin: 0;
@@ -3003,8 +3022,8 @@ ul.about-features li:hover i {
 }
 #testimonials-block {
 	color: #000;
-	background: #fff;
-	padding: 80px 0;
+	background: #110728ff;
+	padding: 250px 0;
 }
 #testimonial {
 	padding: 30px 0;
@@ -3085,7 +3104,7 @@ ul.about-features li:hover i {
 	z-index: 2;
 }
 #latest-news-block h2:after {
-	border: 1px #CCC solid;
+	border: 1px #cccccc00 solid;
 	width: 64px;
 	height: 64px;
 	content: "";

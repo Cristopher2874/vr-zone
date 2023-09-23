@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slider{
+    width: 100%;
+    margin: auto;
+    height: 900px;
+    overflow: hidden;
+}
+
+.slider ul{
+    padding: 0;
+    display: flex;
+    width: 700%;
+
+    animation: slider 20s infinite alternate;
+    animation-timing-function: linear;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider li img{
+    width: 100%;
+}
+.sliderG img{
+    width: 100%;
+}
+.sliderG h5{
+    width: 100%;
+}
+@keyframes slider {
+    0% {margin-left: 0;}
+    10% {margin-left: 0;}
+    15% {margin-left: -100%;}
+    35% {margin-left: -100%;}
+    40% {margin-left: -200%;}
+    60% {margin-left: -200%;}
+    65% {margin-left: -300%;}
+    70% {margin-left: -300%;}
+    75% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+}
+.containerA{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    overflow: hidden;
+}
+.containerA::before{
+    content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #110728ff;
+	opacity: 0.5;
+}
+.textoA{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}.botonA{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
