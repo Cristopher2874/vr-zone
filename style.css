@@ -2112,7 +2112,7 @@ aside li a:hover {
 	font-weight: bold;
 	color: #bbbbbb;
 }
-. usrdt {
+.usrdt {
  margin-top: -90px;
 }
 .usrdt p {
@@ -3436,7 +3436,7 @@ ul.about-features li:hover i {
 	background-image: none;
 }
 .single .single-post footer.entry-meta-bar a:hover, .page .page-block footer.entry-meta-bar a:hover {
-	webkit-transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
 	border: 0px #ff5959 solid;
 	background: #ff5959;
