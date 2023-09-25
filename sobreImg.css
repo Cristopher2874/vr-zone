@@ -1,0 +1,16 @@
+.slider1 img{
+    position: relative;
+}
+.slider1 p{
+    position: absolute;
+    color: aqua;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.slider1 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
