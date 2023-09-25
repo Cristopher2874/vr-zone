@@ -7,6 +7,7 @@
     margin: auto;
     height: 900px;
     overflow: hidden;
+    aspect-ratio: 16 / 9;
 }
 
 .slider ul{
@@ -23,17 +24,13 @@
 }
 .slider li img{
     width: 100%;
-}
-.sliderG img{
-    width: 100%;
-}
-.sliderG h5{
-    width: 100%;
+    flex: 1 0 100%;
+    scroll-snap-align: start;
 }
 @keyframes slider {
     0% {margin-left: 0;}
-    10% {margin-left: 0;}
-    15% {margin-left: -100%;}
+    20% {margin-left: 0;}
+    30% {margin-left: -100%;}
     35% {margin-left: -100%;}
     40% {margin-left: -200%;}
     60% {margin-left: -200%;}
@@ -42,6 +39,7 @@
     75% {margin-left: -400%;}
     100% {margin-left: -400%;}
 }
+/*
 .containerA{
     position: relative;
     display: inline-block;
@@ -75,4 +73,4 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
+}*/
