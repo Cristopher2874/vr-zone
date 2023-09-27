@@ -1,16 +1,24 @@
 .carousel-cell {
-    width: 100%;
-    height: 720;
     margin-right: 300px;
+    background-color: #110728ff;
 
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  @media screen and ( max-width: 500px ) {
+  @media screen and ( max-width: 580px ) {
     /* half-width cells for larger devices */
-    .carousel-cell { width: 200%; }
-}
+    .carousel-cell { 
+      width: 115%;
+      height: 800px;
+    }
+  }
+  @media screen and (min-width: 600px){
+    .carousel-cell{
+      width: 200%;
+      height: 900px;
+    }
+  }
 /* no circle */
 .flickity-button {
   background: transparent;
@@ -28,13 +36,13 @@
 }
 .flickity-button {
   background: #333;
-  transform: scale(60%,60%);
+  transform: scale(40%,40%);
   transition: all 300ms ease-in-out;
 }
 .flickity-button:hover {
   background: #ffca3aff;
   transition: all 300ms ease-in-out;
-  transform: scale(70%,70%);
+  transform: scale(45%,45%);
 }
 /* hide disabled button */
 .flickity-button:disabled {
