@@ -35,7 +35,7 @@
   fill: white;
 }
 .flickity-button {
-  background: #333;
+  background: #1c5d99ff;
   transform: scale(40%,40%);
   transition: all 300ms ease-in-out;
 }
