@@ -4305,7 +4305,7 @@ post-type-archive-product.woocommerce ul.products li.product:hover .add_to_cart_
 	background: #110728ff;
 }
 #bottom-footer p.copyright {
-	color: #def5f2ff;
+	color: #1c5d99ff;
 	font-size: 16px;
 	text-align:center;
 	font-weight: 400;
@@ -4324,11 +4324,15 @@ nav.bottom-nav ul li {
 	margin: 10px 5px;
 }
 nav.bottom-nav ul li a {
-	color: #def5f2ff;
+	color: #1c5d99ff;
 	text-transform: none;
 	font-size: 14px;
 	font-weight: 400;
 	font-family: 'Montserrat', sans-serif;
+	transition: all 300ms ease-in;
+}nav.bottom-nav ul li a:hover{
+	color: #def5f2ff;
+	transition: all 300ms ease-in;
 }
 #bottom-footer p.powered-by, #bottom-footer p.powered-by a {
 	color: #110728ff;
@@ -4523,7 +4527,7 @@ ul.about-features li i {
 
 #top-menu.navbar-default .navbar-nav li{display:block;
 }
-#top-menu.navbar-default .navbar-collapse{background-color: rgba(28, 93, 153, 0.8);}
+#top-menu.navbar-default .navbar-collapse{background-color: rgba(17, 7, 40, 0.8);}
 #top-menu.navbar-default.on .navbar-collapse{background-color: transparent;}
 
 #top-menu.navbar-default.on {
